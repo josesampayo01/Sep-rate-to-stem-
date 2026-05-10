@@ -1,0 +1,6 @@
+{
+  "name": "Kroma AI Audio Separator",
+  "description": "Una aplicación web que extrae tracks de instrumentos de forma independiente permitiendo mezcla y edición.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

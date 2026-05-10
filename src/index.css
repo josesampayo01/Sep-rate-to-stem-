@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .vertical-slider {
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 100%;
+    padding: 0 5px;
+  }
+  
+  /* Custom scrollbar for modern feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4B5563;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6B7280;
+  }
+}
+
+body {
+  background-color: #0c0a09;
+  color: #fafaf9;
+}
