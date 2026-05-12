@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { UploadCloud, Play, Pause, Square, Music, AlignLeft } from 'lucide-react';
 import { AudioEngine, StemId } from './lib/audioEngine';
 
